@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 80px;
+  background-color: white;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #3498db;
+  border-radius: 10px;
+  transition: background-color 0.4s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.color-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#color-code {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+#copy-btn,
+#change-color-btn {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+#copy-btn:hover,
+#change-color-btn:hover {
+  background-color: #27ae60;
+}
+
+.history {
+  margin-top: 30px;
+}
+
+#color-history {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
